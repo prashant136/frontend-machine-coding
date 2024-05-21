@@ -1,0 +1,33 @@
+.folder {
+    cursor: pointer;
+    margin-top: 3px;
+    background-color: rgb(224, 224, 224);
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.folderName {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.folderBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-left: 10px;
+}
+
+.file {
+    display: flex;
+    margin-top: 5px;
+}
