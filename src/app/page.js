@@ -2,13 +2,17 @@
 import EMICalculator from "./questions/emi-calculator";
 import FileExplorer from "./questions/file-explorer";
 import Pagination from "./questions/pagination";
+import PasswordGenerator from "./questions/password-generator";
+import ProgressBar from "./questions/progress-bar";
 
 export default function Home() {
     return (
         <div style={{ maxWidth: "1000px", margin: "auto" }}>
             {/* <FileExplorer /> */}
             {/* <Pagination /> */}
-            <EMICalculator />
+            {/* <EMICalculator /> */}
+            {/* <PasswordGenerator /> */}
+            <ProgressBar />
         </div>
     );
 }
