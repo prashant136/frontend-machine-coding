@@ -16,7 +16,7 @@ export default function Home() {
             {/* <PasswordGenerator /> */}
             {/* <ProgressBar /> */}
             {/* <UseMemoPolyfill /> */}
-            {/* <UseEffectPolyfill /> */}
+            <UseEffectPolyfill />
         </div>
     );
 }
