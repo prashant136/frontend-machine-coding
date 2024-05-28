@@ -4,6 +4,8 @@ import FileExplorer from "./questions/file-explorer";
 import Pagination from "./questions/pagination";
 import PasswordGenerator from "./questions/password-generator";
 import ProgressBar from "./questions/progress-bar";
+import UseEffectPolyfill from "./questions/useEffect-polyfill";
+import UseMemoPolyfill from "./questions/useMemo-polyfill";
 
 export default function Home() {
     return (
@@ -12,7 +14,9 @@ export default function Home() {
             {/* <Pagination /> */}
             {/* <EMICalculator /> */}
             {/* <PasswordGenerator /> */}
-            <ProgressBar />
+            {/* <ProgressBar /> */}
+            {/* <UseMemoPolyfill /> */}
+            <UseEffectPolyfill />
         </div>
     );
 }
