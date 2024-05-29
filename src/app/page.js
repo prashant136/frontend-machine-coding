@@ -1,6 +1,7 @@
 "use client";
 import EMICalculator from "./questions/emi-calculator";
 import FileExplorer from "./questions/file-explorer";
+import GridLight from "./questions/grid-lights";
 import Pagination from "./questions/pagination";
 import PasswordGenerator from "./questions/password-generator";
 import ProgressBar from "./questions/progress-bar";
@@ -16,7 +17,8 @@ export default function Home() {
             {/* <PasswordGenerator /> */}
             {/* <ProgressBar /> */}
             {/* <UseMemoPolyfill /> */}
-            <UseEffectPolyfill />
+            {/* <UseEffectPolyfill /> */}
+            <GridLight />
         </div>
     );
 }
