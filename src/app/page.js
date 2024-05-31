@@ -2,6 +2,7 @@
 import EMICalculator from "./questions/emi-calculator";
 import FileExplorer from "./questions/file-explorer";
 import GridLight from "./questions/grid-lights";
+import LikeButton from "./questions/like-button";
 import Pagination from "./questions/pagination";
 import PasswordGenerator from "./questions/password-generator";
 import ProgressBar from "./questions/progress-bar";
@@ -18,7 +19,8 @@ export default function Home() {
             {/* <ProgressBar /> */}
             {/* <UseMemoPolyfill /> */}
             {/* <UseEffectPolyfill /> */}
-            <GridLight />
+            {/* <GridLight /> */}
+            <LikeButton />
         </div>
     );
 }

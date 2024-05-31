@@ -11,20 +11,13 @@
     font-weight: 700;
 }
 
-button {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: #2a8b8b;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-    cursor: pointer;
-}
-
 .copyBtn {
     height: 30px;
     font-size: 10px;
+    background-color: #2a8b8b;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 .charlength {
@@ -61,6 +54,10 @@ button {
     width: 100%;
     font-size: 20px;
     padding: 20px;
+    background-color: #2a8b8b;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 .errorMessage {
