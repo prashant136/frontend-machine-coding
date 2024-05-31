@@ -1,4 +1,5 @@
 "use client";
+import DarkMode from "./questions/dark-light-mode";
 import EMICalculator from "./questions/emi-calculator";
 import FileExplorer from "./questions/file-explorer";
 import GridLight from "./questions/grid-lights";
@@ -20,7 +21,8 @@ export default function Home() {
             {/* <UseMemoPolyfill /> */}
             {/* <UseEffectPolyfill /> */}
             {/* <GridLight /> */}
-            <LikeButton />
+            {/* <LikeButton /> */}
+            <DarkMode />
         </div>
     );
 }
