@@ -9,6 +9,7 @@ import PasswordGenerator from "./questions/password-generator";
 import ProgressBar from "./questions/progress-bar";
 import UseEffectPolyfill from "./questions/useEffect-polyfill";
 import UseMemoPolyfill from "./questions/useMemo-polyfill";
+import Breadcrumbs from "./questions/breadcrumbs";
 
 export default function Home() {
     return (
@@ -22,7 +23,8 @@ export default function Home() {
             {/* <UseEffectPolyfill /> */}
             {/* <GridLight /> */}
             {/* <LikeButton /> */}
-            <DarkMode />
+            {/* <DarkMode /> */}
+            <Breadcrumbs />
         </div>
     );
 }
