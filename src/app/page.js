@@ -1,4 +1,5 @@
 "use client";
+import DarkMode from "./questions/dark-light-mode";
 import EMICalculator from "./questions/emi-calculator";
 import FileExplorer from "./questions/file-explorer";
 import GridLight from "./questions/grid-lights";
@@ -8,6 +9,7 @@ import PasswordGenerator from "./questions/password-generator";
 import ProgressBar from "./questions/progress-bar";
 import UseEffectPolyfill from "./questions/useEffect-polyfill";
 import UseMemoPolyfill from "./questions/useMemo-polyfill";
+import Breadcrumbs from "./questions/breadcrumbs";
 
 export default function Home() {
     return (
@@ -20,7 +22,9 @@ export default function Home() {
             {/* <UseMemoPolyfill /> */}
             {/* <UseEffectPolyfill /> */}
             {/* <GridLight /> */}
-            <LikeButton />
+            {/* <LikeButton /> */}
+            {/* <DarkMode /> */}
+            <Breadcrumbs />
         </div>
     );
 }

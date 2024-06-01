@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HeartIcon, SpinnerIcon } from "./Icons";
+import { HeartIcon, SpinnerIcon } from "./icons";
 import "./style.css";
 
 export default function LikeButton() {
