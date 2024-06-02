@@ -10,6 +10,7 @@ import ProgressBar from "./questions/progress-bar";
 import UseEffectPolyfill from "./questions/useEffect-polyfill";
 import UseMemoPolyfill from "./questions/useMemo-polyfill";
 import Breadcrumbs from "./questions/breadcrumbs";
+import OTP from "./questions/OTP-login";
 
 export default function Home() {
     return (
@@ -24,7 +25,8 @@ export default function Home() {
             {/* <GridLight /> */}
             {/* <LikeButton /> */}
             {/* <DarkMode /> */}
-            <Breadcrumbs />
+            {/* <Breadcrumbs /> */}
+            <OTP />
         </div>
     );
 }
