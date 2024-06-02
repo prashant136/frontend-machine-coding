@@ -11,6 +11,7 @@ import UseEffectPolyfill from "./questions/useEffect-polyfill";
 import UseMemoPolyfill from "./questions/useMemo-polyfill";
 import Breadcrumbs from "./questions/breadcrumbs";
 import OTP from "./questions/OTP-login";
+import Stepper from "./questions/stepper";
 
 export default function Home() {
     return (
@@ -26,7 +27,8 @@ export default function Home() {
             {/* <LikeButton /> */}
             {/* <DarkMode /> */}
             {/* <Breadcrumbs /> */}
-            <OTP />
+            {/* <OTP /> */}
+            <Stepper />
         </div>
     );
 }
