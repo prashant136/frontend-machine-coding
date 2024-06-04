@@ -12,6 +12,7 @@ import UseMemoPolyfill from "./questions/useMemo-polyfill";
 import Breadcrumbs from "./questions/breadcrumbs";
 import OTP from "./questions/OTP-login";
 import Stepper from "./questions/stepper";
+import Quiz from "./questions/quiz-app";
 
 export default function Home() {
     return (
@@ -28,7 +29,8 @@ export default function Home() {
             {/* <DarkMode /> */}
             {/* <Breadcrumbs /> */}
             {/* <OTP /> */}
-            <Stepper />
+            {/* <Stepper /> */}
+            <Quiz />
         </div>
     );
 }

@@ -1,0 +1,53 @@
+.questions {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.ans-options {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 5px;
+}
+
+.ans-options>li {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(229, 239, 248);
+}
+
+.results {
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+}
+
+.results span {
+    color: red;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.results ul {
+    list-style: none;
+    padding: 0;
+}
+
+.results li {
+    margin-bottom: 10px;
+}
+
+.results li[data-correct="true"] {
+    color: green;
+}
+
+.results li[data-correct="false"] {
+    color: red;
+}
