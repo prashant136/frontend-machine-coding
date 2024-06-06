@@ -13,6 +13,7 @@ import Breadcrumbs from "./questions/breadcrumbs";
 import OTP from "./questions/OTP-login";
 import Stepper from "./questions/stepper";
 import Quiz from "./questions/quiz-app";
+import SelectableGrid from "./questions/selectable-grid";
 
 export default function Home() {
     return (
@@ -30,7 +31,8 @@ export default function Home() {
             {/* <Breadcrumbs /> */}
             {/* <OTP /> */}
             {/* <Stepper /> */}
-            <Quiz />
+            {/* <Quiz /> */}
+            <SelectableGrid />
         </div>
     );
 }
