@@ -15,6 +15,7 @@ import Stepper from "./questions/stepper";
 import Quiz from "./questions/quiz-app";
 import SelectableGrid from "./questions/selectable-grid";
 import MultiSelect from "./questions/multiselect-input";
+import TicTakToe from "./questions/tic-tac-toe";
 
 export default function Home() {
     return (
@@ -34,7 +35,8 @@ export default function Home() {
             {/* <Stepper /> */}
             {/* <Quiz /> */}
             {/* <SelectableGrid /> */}
-            <MultiSelect />
+            {/* <MultiSelect /> */}
+            <TicTakToe />
         </div>
     );
 }
